@@ -38,3 +38,5 @@ Last Boot: 04 June 2026 21:08:18 (3 days ago)
 ## Author
 
 Koray Atacan
+
+IT Helpdesk Technician interested in System Administration and Networking.
