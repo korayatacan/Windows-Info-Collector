@@ -1,42 +1,57 @@
 # Windows Info Collector
 
-A simple PowerShell tool that collects basic Windows system information.
+A simple PowerShell tool that collects basic Windows system information and displays it in a clean and readable format.
 
 ## Features
 
-- Current Date and Time
-- Computer Name
-- Current User
-- Windows Version
-- Installed RAM
-- Last Boot Time
-- Uptime (days since last boot)
-
-## Usage
-
-Run the script:
-
-```powershell
-.\info.ps1
-```
+* Current Date and Time
+* Computer Name
+* Current User
+* Installed RAM
+* Disk Space Information
+* Last Boot Time
+* System Uptime
+* Windows Version
 
 ## Example Output
 
 ```text
 === Windows Info Collector ===
 
-Date: 08 June 2026 Monday 20:31:21
-Computer Name: KORAY
+Date: 09 June 2026 Tuesday 13:25:01
+Computer Name: Koray
 Current User: koray\koray
 
-Windows Version: Microsoft Windows 11 Pro
+Hardware Information
+--------------------
 RAM: 31.1 GB
+Disk C: 555.1 GB Free / 953 GB Total
 
-Last Boot: 04 June 2026 21:08:18 (3 days ago)
+Operating System Information
+----------------------------
+Last Boot: 08 June 2026 21:18:48 (0 days ago)
+Windows Version: Microsoft Windows 11 Pro
 ```
 
-## Author
+## Usage
 
-Koray Atacan
+Run the script from PowerShell:
+
+```powershell
+.\info.ps1
+```
+
+## Technologies Used
+
+* PowerShell
+* Git
+* GitHub
+* Windows CIM Classes
+
+## About
+
+This project was created as part of my journey to improve my PowerShell scripting, Git, and GitHub skills.
+
+**Author:** Koray Atacan
 
 IT Helpdesk Technician interested in System Administration and Networking.
